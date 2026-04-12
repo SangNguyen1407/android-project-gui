@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingBar">
+        <attr name="bar_startText" format="string" />
+        <attr name="bar_endDrawable" format="reference" />
+        <attr name="bar_endDrawableSize" format="dimension" />
+    </declare-styleable>
+</resources>

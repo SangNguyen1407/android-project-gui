@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">android-project</string>
+    <string name="about_title">私たちについて</string>
+
+    <string name="cb_name1">cb_name1</string>
+    <string name="cb_name2">cb_name2</string>
+
+    <string name="bt_save">Save</string>
+
+    <string name="bar_setting">EXAMPLE</string>
 </resources>
