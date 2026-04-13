@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tab1" android:title="@string/botNavi_login" android:icon="@drawable/login_icon"/>
+    <item android:id="@+id/tab2" android:title="@string/botNavi_home" android:icon="@drawable/home_icon"/>
+    <item android:id="@+id/tab3" android:title="@string/botNavi_setting" android:icon="@drawable/setting_icon"/>
+</menu>

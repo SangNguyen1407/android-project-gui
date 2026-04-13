@@ -7,16 +7,22 @@
     android:layout_height="match_parent"
     android:layout_marginTop="50dp"
     android:orientation="vertical">
-
     <com.example.android_project.custom.widget.layout.SettingBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:bar_startText="@string/bar_setting">
     </com.example.android_project.custom.widget.layout.SettingBar>
 
+    <com.example.android_project.custom.widget.layout.SettingBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_startText="@string/cb_name1">
+    </com.example.android_project.custom.widget.layout.SettingBar>
+
     <EditText
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:background="#a1a9ba"
         android:inputType="text"/>
 
     <LinearLayout
@@ -42,4 +48,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/bt_save"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        app:itemTextColor="@color/color_menu_navigation"
+        app:itemIconTint="@color/color_menu_navigation"
+        app:menu="@menu/menu_navigation" />
 </LinearLayout>
